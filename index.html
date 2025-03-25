@@ -7,18 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-        <h1>Log In</h1>
-        <div class="container">
-            <form>
-                <label for="email" id="email">
-                    Email: <input type="email" id="email" name="email" placeholder="e.g Yohoo@mail.com" required>
-                </label> <br>
-                <label for="password" id="password">
-                    Password: <input type="password" id="password" name="password" required>
-                </label>
-            </form>
-        </div>
-    </header>
+    <div class="login-card">
+        <h2>Login</h2>
+
+        <form class="login-form">
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <a href="#">Forgot your password?</a>
+            <button type="submit">LOGIN</button>
+        </form>
+    </div>
 </body>
 </html>
